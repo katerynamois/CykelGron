@@ -1,0 +1,50 @@
+*{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    background-color: rgba(53, 117, 115, 1);
+}
+
+nav.navbar a {
+    color: #FDB456; /* Replace with your desired font color */
+    font-weight: 600;
+}
+nav.navbar a:hover {
+    color: #f2f2f1; /* Optional: Hover effect */
+}
+h1{
+    font-weight: 800;
+}
+
+#event{
+    background-color: rgba(6, 6, 6, 0.397);
+    width: 500px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    max-height: 250px; /* Set a maximum height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+footer {
+    font-size: 0.85rem; /* Decrease the font size */
+}
+
+footer h6 {
+    font-size: 1rem; /* Slightly larger font size for headings */
+}
+
+footer p, footer a {
+    font-size: 0.85rem; /* Reduce the font size of paragraphs and links */
+}
+ h3.section-title {
+    font-weight: 600;
+    font-size: 1rem;
+ }
